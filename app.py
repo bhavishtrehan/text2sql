@@ -89,8 +89,7 @@ def fxn():
    
 
 
-if st.button:
-    st.text('Generate data')
+if st.button('Generate Result'):
     fxn()
 
     
